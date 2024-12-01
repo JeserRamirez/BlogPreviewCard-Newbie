@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "figtree-bold";
+  src: url("../../../../assets/fonts/Figtree-VariableFont_wght.ttf")
+    format("woff2-variations");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "figtree-italic";
+  src: url("../../../../assets/fonts/Figtree-VariableFont_wght.ttf")
+    format("woff2-variations");
+    font-weight: normal;
+    font-style: italic;
+}
+
+.card-container {
+  background-color: white;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: black;
+
+  /* Shadow */
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.tag {
+  background-color: hsl(47, 88%, 63%);
+  color:  hsl(0, 0%, 7%);
+  font-family: 'figtree-bold';
+}
+
+.published-date{
+  font-family: 'figtree-italic';
+  color: (0, 0%, 7%);
+}
+
+.title {
+  font-weight: bold;
+}
+
+.description {
+  font-family: 'figtree-italic';
+  color: hsl(0, 0%, 42%);
+}
+
+.username {
+  font-family: 'figtree-bold';
+  color:  hsl(0, 0%, 7%);
+}
+
